@@ -25,7 +25,13 @@ SECRET_KEY = 'et-qz+^r)x$ec*ea0*em6y1%=qp*8d-tht@s%3ny$i=+73yvqh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+    #'52.43.42.132:8000',
+    #'52.43.42.132:80',
+    #'52.43.42.132',
+    #'www.kyeokabe.com',
+]
 
 
 # Application definition
